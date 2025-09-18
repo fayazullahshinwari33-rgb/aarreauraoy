@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aarreaura Oy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Header Section -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex flex-col sm:flex-row items-center justify-between">
+            <!-- Business Logo/Name -->
+            <div class="flex items-center space-x-2">
+                <!-- Business Logo -->
+                <img src="https://scontent.fkbl10-1.fna.fbcdn.net/v/t39.30808-1/519952146_10031456900292988_305361461022873051_n.jpg?stp=c436.0.1175.1175a_dst-jpg_s200x200_tt6&_nc_cat=103&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=0J48305dVxgQ7kNvwF0EsuU&_nc_oc=AdnTCJ-0Nliz5KGV8deOVWRmiRNfM49MZE1e2Lj1qxR_0LVe61m5IonL9eVYbwoYkqk&_nc_zt=24&_nc_ht=scontent.fkbl10-1.fna&_nc_gid=tuc0dmABBigU-JniAJA4EQ&oh=00_Afbv17AZ22i88Zdw886h47VVhZPdrjnzvwiEKV9dnSfN2Q&oe=68D176CF" alt="Aarreaura Oy Logo" class="h-10 w-10 rounded-full">
+                <span class="text-2xl font-bold text-gray-900">Aarreaura Oy</span>
+            </div>
+            <!-- Navigation Links -->
+            <nav class="mt-4 sm:mt-0 space-x-4">
+                <a href="#about" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">About</a>
+                <a href="#gallery" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Gallery</a>
+                <a href="#contact" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto p-6 space-y-12">
+
+        <!-- About Section -->
+        <section id="about" class="bg-white rounded-xl shadow-lg p-8">
+            <h2 class="text-4xl font-extrabold text-center mb-6 text-gray-900">About Our Business</h2>
+            <div class="text-center text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
+                <!-- Business Description -->
+                <p>Kivipuoti, hyvinvointipalvelut, uniikit lahjat ja 3D-suunnittelu.</p>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="bg-white rounded-xl shadow-lg p-8">
+            <h2 class="text-4xl font-extrabold text-center mb-6 text-gray-900">Our Work</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <!-- Image 1 -->
+                <div class="h-64 bg-gray-200 rounded-lg shadow-md overflow-hidden flex items-center justify-center text-gray-400">
+                    <img src="https://scontent.fkbl10-1.fna.fbcdn.net/v/t39.30808-6/520724638_122110357610937466_4410647028150283206_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=v-fI6Al9jicQ7kNvwE83WaK&_nc_oc=AdlmMnNELJ_e_w4TpvuWzV4k1ouZ0BM9c54X8q2TXI4xBCHqsvx0cb2FxHSSrJtDKF0&_nc_zt=23&_nc_ht=scontent.fkbl10-1.fna&_nc_gid=6Zd-RFHbjx7ehFpwxWTRrA&oh=00_AfZ9mtOXmjUiPFJwqIo41suoc_rX2K_ylksEBhgsgxR1SA&oe=68D1844E" alt="Aarreaura Oy gallery image 1" class="w-full h-full object-cover">
+                </div>
+                <!-- Image 2 -->
+                <div class="h-64 bg-gray-200 rounded-lg shadow-md overflow-hidden flex items-center justify-center text-gray-400">
+                    <img src="https://scontent.fkbl10-1.fna.fbcdn.net/v/t39.30808-6/541754728_122123255672937466_162194613735524994_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=_aj5UB2TzAwQ7kNvwHO8yde&_nc_oc=Adl3HlGpkoVciXUYWky6EZpFYq4oBi9gcy8yUjeJOFGvYKrGbAbYBKONXE-CRlFhAzU&_nc_zt=23&_nc_ht=scontent.fkbl10-1.fna&_nc_gid=6Zd-RFHbjx7ehFpwxWTRrA&oh=00_AfZ3IN_KhSQZoiF9L-x3rh1wcnGQpl23X5XyilU_dQc93g&oe=68D1612A" alt="Aarreaura Oy gallery image 2" class="w-full h-full object-cover">
+                </div>
+                <!-- Image 3 -->
+                <div class="h-64 bg-gray-200 rounded-lg shadow-md overflow-hidden flex items-center justify-center text-gray-400">
+                    <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/533604411_122118760856937466_979749676454775244_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=6W4aizJ3h4kQ7kNvwGhD3z9&_nc_oc=Adk6kvomMbPOl1iA_J9yO_fr3QcTq3eojsga_MZ3rNh_4DKTFIGwhTIEb-pEobETnCI&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=eY2MlNCISqWuQlnyuVUJOw&oh=00_Afawg1YwljCwhCAXk5x7hiLM6ZdKr5ozSVnrsxNqQovfgg&oe=68D15983" alt="Aarreaura Oy gallery image 3" class="w-full h-full object-cover">
+                </div>
+                <!-- Image 4 -->
+                <div class="h-64 bg-gray-200 rounded-lg shadow-md overflow-hidden flex items-center justify-center text-gray-400">
+                    <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/532462258_122118685712937466_5760453159790346785_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=--d9v-JhXjEQ7kNvwFZ5VGf&_nc_oc=AdlBTw8Vsyc9r2rMtXvWogBbKHj8HKzsCSrbXjIpt14ksBhZ0QZCD-hEeRI2l7ig2Ao&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=ylmwYuET4ycOTQOH2GOajw&oh=00_AfbGC7TVaAX5_9IizZt72EJd6AZCGHggn1yVWz0Qk-1Ylg&oe=68D18CE6" alt="Aarreaura Oy gallery image 4" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="bg-white rounded-xl shadow-lg p-8">
+            <h2 class="text-4xl font-extrabold text-center mb-6 text-gray-900">Get in Touch</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center max-w-4xl mx-auto">
+                <!-- Contact Info -->
+                <div class="flex flex-col items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10 text-gray-600 mb-2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0-1.028 1.123-2.074 2.148-2.656 1.408-.808 3.193-.655 4.544.536l.006.006A8.995 8.995 0 0 1 12 6.75a8.995 8.995 0 0 1 3.052-1.801l.006-.006c1.35-.91 3.136-1.062 4.544-.536 1.025.582 2.148 1.628 2.148 2.656v8.525c0 1.028-1.123 2.074-2.148 2.656-1.408.808-3.193.655-4.544-.536l-.006-.006A8.995 8.995 0 0 1 12 17.25a8.995 8.995 0 0 1-3.052 1.801l-.006.006c-1.35.91-3.136 1.062-4.544.536-1.025-.582-2.148-1.628-2.148-2.656V6.75Z" />
+                    </svg>
+                    <p class="font-semibold text-lg">Email Address</p>
+                    <p class="text-gray-600">aarreaura@gmail.com</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10 text-gray-600 mb-2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0-1.028 1.123-2.074 2.148-2.656 1.408-.808 3.193-.655 4.544.536l.006.006A8.995 8.995 0 0 1 12 6.75a8.995 8.995 0 0 1 3.052-1.801l.006-.006c1.35-.91 3.136-1.062 4.544-.536 1.025.582 2.148 1.628 2.148 2.656v8.525c0 1.028-1.123 2.074-2.148 2.656-1.408.808-3.193.655-4.544-.536l-.006-.006A8.995 8.995 0 0 1 12 17.25a8.995 8.995 0 0 1-3.052 1.801l-.006.006c-1.35.91-3.136 1.062-4.544.536-1.025-.582-2.148-1.628-2.148-2.656V6.75Z" />
+                    </svg>
+                    <p class="font-semibold text-lg">Phone Number</p>
+                    <!-- Phone number was not provided, but you can add it here. -->
+                    <p class="text-gray-600">Not provided</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10 text-gray-600 mb-2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 2.2-2.4 4.5-4.5 4.5-1.9 0-3.8-2.2-4.5-4.5-2.2-4.5 2.2-4.5 4.5-4.5s4.5 2.2 4.5 4.5Z" />
+                    </svg>
+                    <p class="font-semibold text-lg">Address</p>
+                    <p class="text-gray-600">Finland, Helsinki, Finland</p>
+                </div>
+            </div>
+            <div class="text-center mt-8">
+                <a href="https://www.facebook.com/profile.php?id=61578124004811" target="_blank" rel="noopener noreferrer" class="text-white bg-blue-600 hover:bg-blue-700 py-3 px-6 rounded-full shadow-lg transition-colors duration-300">
+                    Visit Our Facebook Page
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2024 Aarreaura Oy. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
